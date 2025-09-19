@@ -3,7 +3,7 @@ package edu.eci.arsw.math;
 public class PiThread extends Thread {
     private static double Epsilon = 1e-17;
 
-    public static double calculate1(int start){
+    public static double calculate(int start){
 
         double sum = 0;
 
